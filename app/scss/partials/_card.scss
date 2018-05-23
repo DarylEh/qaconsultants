@@ -1,0 +1,32 @@
+.cards {
+  column-count: 3;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.card-container {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  background-color: #e6faff;
+  border: 1px solid #2e5878;
+  border-radius: 10px;
+  margin: 2px;
+  margin-bottom: 18px;
+  text-align: center;
+  padding: 20px;
+  img.card-img-top {
+    width: 100%;
+    object-fit: cover;
+  }
+  h5.card-title {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+  }
+}
+p.card-text {
+  font-size: 0.8rem;
+  overflow: hidden;
+}
